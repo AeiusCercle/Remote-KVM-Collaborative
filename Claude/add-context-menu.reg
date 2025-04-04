@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\ConvertClaudeConversation]
+@="Convert to HTML"
+
+[HKEY_CLASSES_ROOT\*\shell\ConvertClaudeConversation\command]
+@="cmd.exe /c node \"E:\\[A.I.]\\Claude\\conversation-logger.js\" \"%1\""
